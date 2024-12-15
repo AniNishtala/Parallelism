@@ -3,9 +3,9 @@ Code must require the use of OpenMP. If you are on windows, you must add  OpenMP
 On linux, use sudo apt update. Then do sudo apt install gcc g++ libomp-dev. 
 
 
-To compile the cpp file. Run the command, g++ -fopenmp –std:c++11 ECE141Project.cpp –o ECE141Project
+To compile the cpp file. Run the command, g++ -fopenmp –std:c++11 filename.cpp –o filename_executable
 
-Then execute the executable generated from the previous command with the following. ./ECE141Project.
+Then execute the executable generated from the previous command with the following. ./filename_executable
 
 
 Command Breakdown is as follows:
